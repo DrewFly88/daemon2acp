@@ -1,5 +1,5 @@
 """Proxy 模式启动测试 — 启动 server.py (proxy)，发送请求，查看回复
-运行：D:\QuenPaw\python.exe tests/e2e/proxy_test.py
+运行：python tests/e2e/proxy_test.py
 """
 import subprocess, time, json, sys, os, urllib.request, urllib.error
 

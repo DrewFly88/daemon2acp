@@ -1,5 +1,5 @@
 """测试 DaemonLauncher 自动拉起 daemon（使用旧的 async start() API）
-运行：D:\QuenPaw\python.exe tests/debug/launcher_test.py
+运行：python tests/debug/launcher_test.py
 
 注意：此脚本使用旧的 async start()/stop() API，保留作历史参考。
 当前推荐用 tests/debug/lifecycle_test.py（sync API）。

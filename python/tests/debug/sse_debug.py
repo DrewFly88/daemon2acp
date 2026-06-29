@@ -1,5 +1,5 @@
 """调试：抓 daemon2acp /chat 的原始 SSE 输出
-运行：D:\QuenPaw\python.exe tests/debug/sse_debug.py
+运行：python tests/debug/sse_debug.py
 """
 import asyncio, subprocess, sys, os, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")

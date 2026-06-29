@@ -6,11 +6,11 @@ stderr 用于日志输出。
 
 用法：
     # 直接运行（供 ACP 客户端启动）
-    D:\\QwenPaw\\python.exe stdio_server.py
+    python stdio_server.py
 
     # 指定运行模式
     set DAEMON2ACP_MODE=proxy
-    D:\\QwenPaw\\python.exe stdio_server.py
+    python stdio_server.py
 
 协议流程：
     1. Client → Agent: initialize 请求（via stdin）

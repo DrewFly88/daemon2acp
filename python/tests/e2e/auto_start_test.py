@@ -1,6 +1,6 @@
 """端到端测试：server.py 自动拉起 daemon → 通过 daemon2acp 对话
 
-运行：D:\QuenPaw\python.exe tests/e2e/auto_start_test.py
+运行：python tests/e2e/auto_start_test.py
 """
 import asyncio, subprocess, sys, os, json, time
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")

@@ -1,5 +1,5 @@
 """调试：检查 daemon 子进程是否存活
-运行：D:\QuenPaw\python.exe tests/debug/daemon_alive_check.py
+运行：python tests/debug/daemon_alive_check.py
 """
 import asyncio, subprocess, sys, os, time, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")

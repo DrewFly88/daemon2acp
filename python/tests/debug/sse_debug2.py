@@ -1,5 +1,5 @@
 """简单调试：一轮对话，打印原始 SSE
-运行：D:\QuenPaw\python.exe tests/debug/sse_debug2.py
+运行：python tests/debug/sse_debug2.py
 """
 import asyncio, subprocess, sys, os, json
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")

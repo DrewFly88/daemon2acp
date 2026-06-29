@@ -3,7 +3,7 @@
   "title": "AtomCode ACP Agent",
   "version": "0.1.0",
   "description": "AtomCode coding agent via ACP protocol",
-  "command": ["D:\\QwenPaw\\python.exe", "D:\\代码\\daemon2acp\\python\\stdio_server.py"],
+  "command": ["python3", "/path/to/daemon2acp/python/stdio_server.py"],
   "transport": "stdio",
   "env": {
     "DAEMON2ACP_MODE": "proxy",

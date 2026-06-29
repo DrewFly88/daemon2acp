@@ -1,7 +1,7 @@
 """端到端测试 — 验证 HTTP 端点和 ACP JSON-RPC 端点
 
 运行方式：
-    D:\QwenPaw\python.exe tests/test_endpoints.py
+    python tests/test_endpoints.py
 """
 
 import asyncio

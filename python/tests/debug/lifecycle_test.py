@@ -1,5 +1,5 @@
 """daemon 生命周期测试：启动 → 存活 → 对话 → 关闭 → 确认退出
-运行：D:\QuenPaw\python.exe tests/debug/lifecycle_test.py
+运行：python tests/debug/lifecycle_test.py
 """
 import subprocess, time, json, sys, os, urllib.request
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
