@@ -1,0 +1,20 @@
+[package]
+name = "daemon2acp-http"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+daemon2acp-core = { path = "../daemon2acp-core" }
+axum = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tower-http = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+anyhow = { workspace = true }
+futures = { workspace = true }
+async-stream = { workspace = true }

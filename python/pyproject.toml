@@ -1,0 +1,25 @@
+[project]
+name = "daemon2acp"
+version = "0.1.0"
+description = "AtomCode Daemon HTTP API → ACP 协议映射服务（Python 实现）"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9",
+    "pydantic>=2.0",
+    "sse-starlette>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "httpx",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
+package-dir = {"" = "."}

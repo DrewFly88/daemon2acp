@@ -1,0 +1,17 @@
+[package]
+name = "daemon2acp-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+agent-client-protocol = { workspace = true }
+agent-client-protocol-schema = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+futures = { workspace = true }
